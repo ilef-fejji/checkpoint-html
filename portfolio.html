@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio></title>
 </head>
-<body>
+<body id="body">
     <!--Navbar-->
     <nav>
         <ul>
-            <li><a href="#Home"> Home</a></li>
-            <li> <a href="#About"> About</a></li>
-            <li><a href="#Work"> Work</a></li>
-            <li><a href="#Resume"> Resume</a></li>
-            <li><a href="#Contact"> Contact</a></li>
+            <li><a style="nav" href="#Home"> Home</a></li>
+            <li> <a style="nav" href="#About"> About</a></li>
+            <li><a style="nav" href="#Work"> Work</a></li>
+            <li><a style="nav" href="#Resume"> Resume</a></li>
+            <li><a style="nav"href="#Contact"> Contact</a></li>
         </ul>
     </nav>
     <!-- section1 -->
      <section id="Home">
-        <h1><br> Welcome to my Portfolio </h1>
+        <h1 class="title"><br> Welcome to my Portfolio </h1>
         <img src="https://media.istockphoto.com/id/1365601848/photo/portrait-of-a-young-woman-carrying-her-schoolbooks-outside-at-college.jpg?s=612x612&w=0&k=20&c=EVxLUZsL0ueYFF1Nixit6hg-DkiV52ddGw_orw9BSJA=" alt="image">
 
      </section>
      <!-- section 2 -->
       <section id="About">
-        <h2><br> About Me </h2>
+        <h2 class="title"><br> About Me </h2>
         <p> <i>I'am a marketing student at the higher Institue of Managment of sousse <br> I hold a bachelor's degree in marketing </i></p>
       </section> 
       <!-- section 3 -->
        <section id="Work">
-        <h3> <br> My Work </h3>
+        <h3 class="title"> <br> My Work </h3>
         <table>
             <tr>
             <th>first internship : summer 2023</th>
@@ -45,8 +46,8 @@
        </section>
        <!-- section 4 -->
     <section id="Resume">
-        <h4> <br>Resume  </h4>
-        <p> <i> I learned a lot in my two internships and my acadamic cursus in the higher institue of Managment was great</i></p>
+        <h4 class="title"> <br>Resume  </h4>
+        <p class="paragraphe"> <i> I learned a lot in my two internships and my acadamic cursus in the higher institue of Managment was great</i></p>
         <video href="https://www.youtube.com/watch?v=u5FjT1CwCFg/" alt="video "> video of university of sousse </video>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/H03wb1cZCSQ?si=EaNb664rrB9hzNjx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -54,7 +55,7 @@
     </section>
     <!-- section5 -->
      <section id="Contact">
-        <h5><br> Contact me </h5>
+        <h5 class="title"><br> Contact me </h5>
         <label for="name"> name </label>
         <input type="text" placeholder="write your name">
         <button type="submit"> Submit</button>
